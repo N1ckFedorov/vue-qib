@@ -23,7 +23,6 @@
                 <div class="flex lg:items-center lg:flex-row flex-col pt-2 pb-[18px] border-b border-black-10 border-1 md:pr-[24px]"><span class="flex flex-grow text-black-60">https://www.youtube.com/watch?v=dQw4w9WgXcQ</span>
                   <div class="flex lg:mt-0 mt-2 lg:items-center">
                     <span class="badge--green md:mr-[45px] mr-auto inline-flex font-medium border-2 rounded-[4px] px-[18.5px] py-[6.5px]  items-center">qib.li/sdfh3 </span>
-                    <input type="text" class='testing-code' value="11111">
                     <button type="button" class="mr-[16px] flex items-center"  @click.stop.prevent="copyTestingCode">
                       <SvgIcon name='copy'/>
                     </button>
@@ -35,7 +34,6 @@
                 <div class="flex lg:items-center lg:flex-row flex-col pt-2 pb-[18px]  md:pr-[24px] "><span class="flex flex-grow text-black-60">https://www.youtube.com/watch?v=dQw4w9WgXcQ</span>
                   <div class="flex lg:mt-0 mt-2 lg:items-center">
                     <span class="badge--green md:mr-[45px] mr-auto inline-flex font-medium border-2 rounded-[4px] px-[18.5px] py-[6.5px]  items-center" >qib.li/sdfh3 </span>
-                    <input type="text" class='testing-code' value="564654">
                     <button type="button" class="mr-[16px] flex items-center" @click.stop.prevent="copyTestingCode">
                       <SvgIcon name='copy'/>
                     </button>

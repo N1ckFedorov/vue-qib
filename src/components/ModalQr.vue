@@ -9,7 +9,7 @@
             </button>
           </div>
           <div class="flex justify-center mb-4">
-            <div class="rounded-[8px] overflow-hidden sm:w-[256px] w-[150px] sm:h-[256px] h-[150px]"><img src="s/images/qr.png" alt="" class="object-cover h-full w-full"></div>
+            <div class="rounded-[8px] overflow-hidden sm:w-[256px] w-[150px] sm:h-[256px] h-[150px]"><img src="../../src/assets/qr.png" alt="" class="object-cover h-full w-full"></div>
           </div>
           <div class="sm:pl-2 pl-0 flex md:items-center justify-between md:flex-row flex-col">
             <button type="button" class="flex">

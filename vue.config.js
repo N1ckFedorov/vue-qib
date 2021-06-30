@@ -1,4 +1,7 @@
 module.exports = {
+
+  publicPath: process.env.NODE_ENV === 'production' ? '/vue-qib/' : '/',
+
   chainWebpack: config => {
     config.module
       .rule('svg-sprite')
