@@ -10,7 +10,7 @@
                 <SvgIcon name='burger' class='text-5xl text-blue'/>
               </button>
             </div>
-            <div id="menu" class="md:flex md:items-center flex hidden md:justify-start justify-between md:mt-[5px] mt-2 md:flex-row flex-col md:filter-none filter drop-shadow drop-shadow-none md:mr-[33px]">
+            <div id="menu" class="md:flex md:items-center flex hidden md:justify-start justify-between md:mt-0.5 mt-2 md:flex-row flex-col md:filter-none filter drop-shadow drop-shadow-none md:mr-3.3">
               <a href="#" class="btn btn--clear md:mr-4 md:mb-0 mb-2">Войти в кабинет</a>
               <a href="#" class="btn"> Зарегистрироваться</a></div>
           </div>

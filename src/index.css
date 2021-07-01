@@ -13,13 +13,13 @@
 
 @layer utilities {
   .btn {
-    @apply inline-flex text-blue font-medium border-2 rounded-[8px] border-blue-50 bg-blue-10 justify-center px-[22px] py-[10.5px] hover:text-blue-80 items-center transition duration-200 ease-in-out;
+    @apply inline-flex text-blue font-medium border-2 rounded-lg border-blue-50 bg-blue-10 justify-center px-[22px] py-[10.5px] hover:text-blue-80 items-center transition duration-200 ease-in-out;
   }
   .btn--clear {
     @apply border-none  bg-transparent p-0;
   }
   .input {
-    @apply bg-white border-black-20 border-[1px] rounded-[4px] placeholder-black-50 p-[15.5px] focus:border-blue active:border-blue outline-none;
+    @apply bg-white border-black-20 border rounded placeholder-black-50 p-1.5 focus:border-blue active:border-blue outline-none;
   }
   .badge--green {
     @apply text-green border-green-50 bg-green-10;
@@ -28,22 +28,22 @@
     @apply text-red  border-red-50 bg-red-10;
   }
   .notify::before {
-    @apply rounded-tl-[8px] rounded-bl-[8px] h-full w-[12px] inline-block top-0 left-0 bottom-0 absolute;
+    @apply rounded-tl-lg rounded-bl-lg h-full w-1.2 inline-block top-0 left-0 bottom-0 absolute;
     content: "";
   }
   .notify--green::before {
     @apply bg-green;
   }
   .modal {
-    @apply z-[9999999] fixed top-0 left-0 right-0 bottom-0  items-center justify-center hidden;
+    @apply z-999999 fixed top-0 left-0 right-0 bottom-0  items-center justify-center hidden;
   }
   .modal.show {
-    @apply z-[9999999] flex;
+    @apply z-999999 flex;
   }
   .modal-overlay {
-    @apply bg-modalOverlay h-screen w-screen opacity-[0.8] fixed top-0 left-0 right-0 bottom-0 z-[1040999];
+    @apply bg-modalOverlay h-screen w-screen opacity-[0.8] fixed top-0 left-0 right-0 bottom-0 z-999999;
   }
   .modal-wrapper {
-    @apply z-[9999999] relative bg-white shadow rounded-[8px];
+    @apply z-1040999 relative bg-white shadow rounded-lg;
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <div data-modal="modalQr" class="modal show">
         <div class="modal-overlay"></div>
-        <div class="modal-wrapper max-w-[680px] w-full sm:pt-[32px] pt-2 sm:px-4 px-2 sm:pb-[24px] pb-2">
+        <div class="modal-wrapper max-w-68 w-full sm:pt-3.2 pt-2 sm:px-4 px-2 sm:pb-2.4 pb-2">
           <div class="flex items-center justify-between mb-4">
             <h2 class="font-medium sm:text-4xl text-2xl">QR-код для ссылки</h2>
             <button type="button" @click="close" >
@@ -9,13 +9,12 @@
             </button>
           </div>
           <div class="flex justify-center mb-4">
-            <div class="rounded-[8px] overflow-hidden sm:w-[256px] w-[150px] sm:h-[256px] h-[150px]"><img src="../../src/assets/qr.png" alt="" class="object-cover h-full w-full"></div>
+            <div class="rounded-lg overflow-hidden sm:w-[256px] w-15 sm:h-[256px] h-15"><img src="../../src/assets/qr.png" alt="" class="object-cover h-full w-full"></div>
           </div>
           <div class="sm:pl-2 pl-0 flex md:items-center justify-between md:flex-row flex-col">
             <button type="button" class="flex">
-              <svg width="1em" height="1em" class="icon icon-copy mr-1 flex-shrink-0">
-                <use xlink:href="s/images/useful/svg/theme/symbol-defs.svg#icon-copy"></use>
-              </svg><span class="text-blue font-medium">Скопировать в буфер обмена</span>
+              <SvgIcon name='copy' class='mr-1 flex-shrink-0"'/>
+              <span class="text-blue font-medium">Скопировать в буфер обмена</span>
             </button>
             <button type="button" class="md:mt-0 mt-2 btn">Скачать QR-код</button>
           </div>
