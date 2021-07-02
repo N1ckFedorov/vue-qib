@@ -1,6 +1,8 @@
-module.exports = {
+// Vue.config.devtools = true
 
-  publicPath: process.env.NODE_ENV === 'production' ? '/vue-qib/' : '/',
+module.exports = {
+  
+  // publicPath: process.env.NODE_ENV === 'production' ? '/vue-qib/' : '/',
 
   chainWebpack: config => {
     config.module

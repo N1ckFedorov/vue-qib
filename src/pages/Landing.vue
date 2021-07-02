@@ -14,17 +14,15 @@
       <MoreFunctions/>
     </main>
     <Footer/>
-    <Notification/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Header from '@/components/Header.vue'
-import CutLinkBanner from '@/components/CutLinkBanner.vue'
+import CutLinkBanner from '@/components/CutLinkBanner/CutLinkBanner.vue'
 import MoreFunctions from '@/components/MoreFunctions.vue'
 import Footer from '@/components/Footer.vue'
-import Notification from '@/components/Notification.vue'
 
 export default {
   components: {
@@ -32,7 +30,6 @@ export default {
     CutLinkBanner,
     MoreFunctions,
     Footer,
-    Notification,
   }
 }
 </script>

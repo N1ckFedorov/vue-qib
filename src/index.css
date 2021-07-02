@@ -13,7 +13,7 @@
 
 @layer utilities {
   .btn {
-    @apply inline-flex text-blue font-medium border-2 rounded-lg border-blue-50 bg-blue-10 justify-center px-[22px] py-[10.5px] hover:text-blue-80 items-center transition duration-200 ease-in-out;
+    @apply inline-flex text-blue font-medium border-2 rounded-lg border-blue-50 bg-blue-10 justify-center px-2.2 py-1 hover:text-blue-80 items-center transition duration-200 ease-in-out;
   }
   .btn--clear {
     @apply border-none  bg-transparent p-0;
@@ -41,7 +41,7 @@
     @apply z-999999 flex;
   }
   .modal-overlay {
-    @apply bg-modalOverlay h-screen w-screen opacity-[0.8] fixed top-0 left-0 right-0 bottom-0 z-999999;
+    @apply bg-modalOverlay h-screen w-screen opacity-80 fixed top-0 left-0 right-0 bottom-0 z-999999;
   }
   .modal-wrapper {
     @apply z-1040999 relative bg-white shadow rounded-lg;
