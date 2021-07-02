@@ -1,4 +1,3 @@
-// import Vue from 'vue'
 import Vuex from 'vuex'
 
 import commonActions from './actions/actions'

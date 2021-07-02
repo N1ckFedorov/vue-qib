@@ -6,4 +6,4 @@ import store from './vuex/index.js'
 import './index.css'
 
 
-createApp(App).use(router).use(Vuex).use(store).mount('#app')
+createApp(App).use(router).mount('#app')

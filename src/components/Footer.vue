@@ -1,5 +1,5 @@
 <template>
-  <footer class="mt-12 mb-8">
+  <footer class="md:mt-12 mt-8 md:mb-8 mb-4">
         <div class="container"> 
           <div class="flex md:items-center md:flex-row flex-col">
             <div class="flex-grow">

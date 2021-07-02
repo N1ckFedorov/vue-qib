@@ -1,3 +1,1 @@
-export default {
-  HANDLE_COPY() {},
-}
+export default {}
