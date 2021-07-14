@@ -53,6 +53,7 @@ module.exports = {
       40: '40rem',
       44: '44rem',
       48: '48rem',
+      50: '50rem',
       52: '52rem',
       56: '56rem',
       60: '60rem',
@@ -65,6 +66,9 @@ module.exports = {
     maxWidth: {
       68: '68rem',
      },
+    minWidth: {
+      50: '50rem'
+    },
     colors: {
       modalOverlay: '#02132B',
       transparent: 'transparent',
@@ -83,6 +87,7 @@ module.exports = {
       zircon: '#FBFCFF',
       blue: {
         10: '#EAF2FD',
+        20: '#F4F8FE',
         50: '#97BFF6',
         80: '#498AE2',
         DEFAULT: '#1C6DDB',
