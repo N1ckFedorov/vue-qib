@@ -21,6 +21,7 @@ module.exports = {
       0.8: '0.8rem',
       1: '1rem',
       1.2: '1.2rem',
+      1.4: '1.4rem',
       1.5: '1.5rem',
       1.6: '1.6rem',
       1.8: '1.8rem',
@@ -76,6 +77,7 @@ module.exports = {
       black: {
         10: '#E6E7EA',
         20: '#CCD0D5',
+        30: '#B3B8C0',
         40: '#9AA1AA',
         50: '#808995',
         60: '#677280',
@@ -135,6 +137,7 @@ module.exports = {
     },
     borderRadius: {
       'none': '0',
+      'md': '2px',
       DEFAULT: '4px',
       'lg': '8px',
     },
@@ -180,7 +183,7 @@ module.exports = {
       'functions-letters' : "url('../src/assets/svg/functions-bg.svg')",
       'auth-letters' : "url('../src/assets/svg/auth-bg.svg')",
       'landing-bg'        : "url('../src/assets/svg/landing-bg.svg')",
-      'checkbox-checked'        : "url('../src/assets/icons/checkbox-checked.svg')",
+      'checkbox-checked'        : "url('../src/assets/svg/checkbox-checked.svg')",
      })
   },
   variants: {

@@ -12,19 +12,18 @@
         </div>
         <div class="xl:px-10 px-3 py-6 flex-1">
           <div class="max-w-32 mx-auto flex flex-col">
-            <span class="text-black-20 font-medium">С возвращением!</span>
-            <span class="font-medium text-3xl text-black-90 mt-1">Вход в личный кабинет</span>
+            <span class="font-medium text-3xl text-black-90 mt-2">Восстановление пароля</span>
             <form action="/" class="mt-5 flex flex-col items-end">
-              <label class="flex flex-col relative flex-grow mb-4 w-full">
-                <span class="text-sm text-black-80 absolute -top-1.8"> E-mail или телефон</span>
-                <input value="+7 999 996 67 20" class="input" type="text" placeholder="Введите логин"/>
-              </label>
               <label class="flex flex-col relative flex-grow w-full">
-                <span class="text-sm text-black-80 absolute -top-1.8"> Пароль</span>
-                <input value="" class="input" type="password" placeholder="Введите пароль"/>
+                <span class="text-sm text-black-80 absolute -top-1.8"> Код из письма</span>
+                <input value="" class="input" type="text" placeholder="000-000"/>
+                <span class="text-red text-sm ml-auto">Неверный код</span>
               </label>
-              <a href="#" class="text-black-40 font-medium mt-2 ml-auto inline-block ">Забыли пароль?</a>
-              <button type="submit" class="btn mt-4">Войти</button>
+              <button type="button" class="mt-1">
+                <SvgIcon name='refresh' class='text-lg mr-1'/>
+                <span class="text-blue">Отправить заново</span>
+              </button>
+              <button type="submit" class="btn mt-4">Далее</button>
             </form>
           </div>
         </div>
@@ -38,7 +37,7 @@
 import SvgIcon from '@/components/SvgIcon.vue'
 
 export default {
-  name: 'Login',
+  name: 'RestorePassCodeError',
   components: {
     SvgIcon
   },
