@@ -65,6 +65,7 @@ module.exports = {
     },
     maxWidth: {
       68: '68rem',
+      32: '32rem'
      },
     minWidth: {
       50: '50rem'
@@ -177,7 +178,9 @@ module.exports = {
     },
     backgroundImage: theme => ({
       'functions-letters' : "url('../src/assets/svg/functions-bg.svg')",
+      'auth-letters' : "url('../src/assets/svg/auth-bg.svg')",
       'landing-bg'        : "url('../src/assets/svg/landing-bg.svg')",
+      'checkbox-checked'        : "url('../src/assets/icons/checkbox-checked.svg')",
      })
   },
   variants: {

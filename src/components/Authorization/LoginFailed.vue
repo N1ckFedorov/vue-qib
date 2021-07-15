@@ -2,8 +2,8 @@
   <div>
     <div class="container">
       <div class="flex bg-white shadow min-h-screen ">
-        <div class="flex flex-col min-w-50 border-2 border-blue-10 shadow bg-blue-20 border-t-0 border-b-0 p-6">
-          <SvgIcon name='logo' class='text-7xl'/>
+        <div class="flex flex-col min-w-50 border-2 border-blue-10 shadow bg-blue-20 border-t-0 border-b-0 p-6 bg-auth-letters bg-no-repeat bg-bottom bg-cover">
+          <SvgIcon name='logo' class='text-4xl'/>
           <span class="mt-4 font-medium text-black-50 text-3xl">У вас нет аккаунта?</span>
           <a href="#" class="flex items-center mt-1 text-blue font-medium">
             <SvgIcon name='id_card' class='text-lg mr-1'/>

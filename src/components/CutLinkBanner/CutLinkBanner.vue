@@ -5,9 +5,8 @@
         <h2 class="sm:text-6xl xs:text-4xl text-2xl mb-5">Сокращение ссылки</h2>
         <form action="/" class="flex md:flex-row flex-col">
           <label class="flex flex-col relative flex-grow">
-            <span class="text-sm text-black-80 absolute -top-1.8"
-              >Исходная ссылка</span
-            >
+            <span class="text-sm text-black-80 absolute -top-1.8">
+              Исходная ссылка</span>
             <input
               value="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               class="input"

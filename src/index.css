@@ -21,6 +21,12 @@
   .input {
     @apply bg-white border-black-20 border rounded placeholder-black-50 p-1.5 focus:border-blue active:border-blue outline-none;
   }
+  .checkbox {
+    @apply flex items-center 
+  }
+  .checkbox input {
+      @apply bg-checkbox-checked
+    }
   .badge--green {
     @apply text-green border-green-50 bg-green-10;
   }
